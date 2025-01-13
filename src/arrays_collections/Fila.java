@@ -10,6 +10,7 @@ public class Fila {
 
         // Offer e Add adicionam elementos na fila
         // Muda o comportamento quando a fila está cheia
+
         fila.add("Ana"); // Retorna False se não conseguir adicionar
         fila.offer("Bruno"); // Limita até quantos podem ser add - Gera erro
         fila.add("Daniel");

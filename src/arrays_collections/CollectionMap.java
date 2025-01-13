@@ -3,7 +3,7 @@ package arrays_collections;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Mapa {
+public class CollectionMap {
     public static void main(String[] args) {
 
         Map<Integer, String> usuarios = new HashMap<>();
@@ -27,7 +27,7 @@ public class Mapa {
             System.out.println(valores);
         }
 
-        for (Map.Entry<Integer, String> registros: usuarios.entrySet()) {
+        for (java.util.Map.Entry<Integer, String> registros: usuarios.entrySet()) {
             System.out.println(registros.getKey());
             System.out.println(registros.getValue());
         }
