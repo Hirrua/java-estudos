@@ -1,4 +1,4 @@
-package oo;
+package oo.heranca;
 
 public class MeusAnimais {
     public static void main(String[] args) {

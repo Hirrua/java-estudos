@@ -1,4 +1,8 @@
-package oo;
+package oo.heranca;
+
+/*
+* Exemplo de Herança e Polimorfismo
+*/
 
 public class Animal {
     String nome;
