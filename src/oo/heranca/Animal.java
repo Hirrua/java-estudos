@@ -5,9 +5,9 @@ package oo.heranca;
 */
 
 public class Animal {
-    String nome;
-    String cor;
-    int idade;
+    public String nome;
+    public String cor;
+    public int idade;
 
     public Animal(String nome, String cor, int idade) {
         this.nome = nome;
